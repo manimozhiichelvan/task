@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="cal.css">
 </head>
 <body>
      <style>
         
         input{
-            height: 100px;
+            height: 90px;
             width: 330px;
             border-radius: 20px;
         }
@@ -25,82 +26,51 @@
             border-color: black;
             border-style: solid;
             border-radius: 20px;
-            margin-left: 180px;
-            margin-right: 180px;
+            margin-left: 300px;
+            margin-right: 300px;
             padding-top: 20px;
             padding-bottom: 20px;
-            background-color: lightgray;
-        }
-    </style>
-    <center>
-    <div>
-    <table>
-        <tr>
-            <td><input type="text" style="text-align: right;" placeholder="0" ></td>
-        </tr>
-    </table>
+            background-color: mistyrose;
+            margin-top: 200px;
+            background-image: url("./img/math\ 4.jpg");
 
-    
-    <table>
-        <tr>
-            <td><button style="background-color: lightblue;">(</button></td> <td><button style="background-color: lightblue;">)</button></td> <td><button style="background-color: lightblue;">%</button></td> <td><button style="background-color: lightblue;">AC</button></td> 
-        </tr>
-        <tr>
-            <td><button>7</button></td> <td><button>8</button></td> <td><button>9</button></td> <td><button style="background-color: lightblue;">/</button></td>
-        </tr>
-        <tr>
-            <td><button>4</button></td> <td><button>5</button></td> <td><button>6</button></td> <td><button style="background-color: lightblue;">*</button></td>
-        </tr>
-        <tr>
-            <td><button>1</button></td> <td><button>2</button></td> <td><button>3</button></td> <td><button style="background-color: lightblue;">-</button></td>
-        </tr>
-        <tr>
-            <td><button>0</button></td> <td><button>.</button></td> <td><button style="background-color: rgb(0, 119, 255); color: white; " >=</button></td> <td><button style="background-color: lightblue;">+</button></td>
-        </tr>
-    </table>
-    </div>
-    
-    </center>
-    
-    
-    
-</body>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-     <style>
-        
+            
+        }
+        body {
+            
+            background-image: url("./img/astro.png");
+            background-size: 86%;
+            
+        }
         input{
-            height: 100px;
-            width: 330px;
-            border-radius: 20px;
+            background-color: lightgray;
+            font-size: xx-large;
+            background-image: url("./img/math\ 1.jpg");
         }
         button{
-            height: 80px;
-            width: 80px;
-            border-color: white;
-            font-size: medium;
-            border-radius: 20px;
-        }   
-        div{
-            border-width: 2px;
-            border-color: black;
-            border-style: solid;
-            border-radius: 20px;
-            margin-left: 180px;
-            margin-right: 180px;
-            padding-top: 20px;
-            padding-bottom: 20px;
-            background-color: lightgray;
+            background-color: bisque;
         }
+
+        button:hover{
+            background-color: black;
+            cursor: grab;
+            
+        }
+        .two:hover{
+            background-color: aliceblue;
+            cursor: grab;
+
+        }
+
+        button{
+            background-image: url(./img/math\ 3.jpg);
+        }
+
     </style>
     <center>
-    <div>
+    
+    <div style="width: 380px;">
+        
     <table>
         <tr>
             <td><input type="text" style="text-align: right;" placeholder="0" ></td>
@@ -116,13 +86,13 @@
             <td><button>7</button></td> <td><button>8</button></td> <td><button>9</button></td> <td><button style="background-color: lightblue;">/</button></td>
         </tr>
         <tr>
-            <td><button>4</button></td> <td><button>5</button></td> <td><button>6</button></td> <td><button style="background-color: lightblue;">*</button></td>
+            <td><button>4</button></td> <td><button>5</button></td> <td><button>6</button></td> <td><button class="two" style="background-color: lightblue;">*</button></td>
         </tr>
         <tr>
-            <td><button>1</button></td> <td><button>2</button></td> <td><button>3</button></td> <td><button style="background-color: lightblue;">-</button></td>
+            <td><button>1</button></td> <td><button>2</button></td> <td><button>3</button></td> <td><button class="two" style="background-color: lightblue;">-</button></td>
         </tr>
         <tr>
-            <td><button>0</button></td> <td><button>.</button></td> <td><button style="background-color: rgb(0, 119, 255); color: white; " >=</button></td> <td><button style="background-color: lightblue;">+</button></td>
+             <td><button>.</button></td> <td><button>0</button></td>   <td><button class="two" style="background-color: lightblue;">+</button></td> <td><button class="two" style="background-color: rgb(0, 119, 255); color: white; " >=</button></td>
         </tr>
     </table>
     </div>
@@ -131,5 +101,3 @@
     
     
     
-</body>
-</html>
